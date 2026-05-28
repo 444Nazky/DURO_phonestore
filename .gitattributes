@@ -1,0 +1,9 @@
+# Ensure GitHub Linguist classifies Laravel Blade templates correctly.
+# https://docs.github.com/en/get-started/writing-on-github/working-with-git/ignoring-files#using-gitattributes
+
+# Treat Laravel Blade templates as Blade.
+*.blade.php linguist-language=Blade
+
+# Common Laravel view extensions.
+*.blade.php linguist-detectable
+
